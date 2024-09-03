@@ -244,3 +244,35 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
+//my tweaks 
+
+// Set default search engine to Ecosia
+user_pref("browser.urlbar.placeholderName", "Ecosia");
+user_pref("browser.urlbar.placeholderName.private", "Ecosia");
+user_pref("browser.search.defaultenginename", "Ecosia");
+user_pref("browser.search.defaultenginename.private", "Ecosia");
+
+//install extentions 
+
+// Install uBlock Origin
+user_pref("extensions.webextensions.uuids", "{\"uBlock0@raymondhill.net\":\"c8f84c1f-5f6d-45ab-b8e3-d31c8e9e9c2b\"}");
+user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
+user_pref("extensions.pendingOperations", false);
+user_pref("extensions.getAddons.cache.enabled", false);
+user_pref("extensions.getAddons.discovery.api_url", "");
+user_pref("extensions.getAddons.link.url", "");
+user_pref("extensions.getAddons.langpacks.url", "");
+user_pref("extensions.systemAddonSet", "{\"schema\":1,\"addons\":{}}");
+user_pref("extensions.webextensions.restrictedDomains", "");
+user_pref("extensions.webservice.discoverURL", "");
+user_pref("xpinstall.signatures.required", false);
+
+//install bitwarden
+user_pref("extensions.webextensions.uuids", "{\"bitwarden@bitwarden.com\":\"c8f84c1f-5f6d-45ab-b8e3-d31c8e9e9c2b\"}");
+user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
+user_pref("extensions.pendingOperations", false);
+user_pref("extensions.getAddons.cache.enabled", false);
+user_pref("extensions.getAddons.discovery.api_url", "");
+user_pref("extensions.getAddons.link.url", "");
+user_pref("extensions.getAddons.langpacks.url", "");
+user_pref("extensions.systemAddonSet", "{\"schema\":1,\"addons\":{}}");
